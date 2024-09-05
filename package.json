@@ -1,12 +1,15 @@
 {
-  "name": "first_workflow",
+  "name": "my_node_project",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Ticko\""
+    "test": "node main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
